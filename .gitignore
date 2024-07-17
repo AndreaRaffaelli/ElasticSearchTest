@@ -1,0 +1,5 @@
+.venv
+elastic.tar.gz
+elasticsearch-8.14.3
+kibana.tar.gz
+kibana-8.14.3

@@ -1,0 +1,10 @@
+# elasticsearch.yml per master node
+cluster.name: my-elasticsearch-cluster
+node.name: master-node
+node.master: true
+node.data: false
+node.ingest: false
+node.ml: false
+network.host: 0.0.0.0
+discovery.seed_hosts: ["master-node-ip", "data-node-1-ip", "data-node-2-ip"]
+cluster.initial_master_nodes: ["master-node"]

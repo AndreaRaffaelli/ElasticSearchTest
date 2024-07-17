@@ -1,0 +1,4 @@
+cluster.name: my-elasticsearch-cluster
+network.host: 0.0.0.0
+discovery.seed_hosts: ["master-node-ip", "data-node-1-ip", "data-node-2-ip"]
+cluster.initial_master_nodes: ["master-node"]
